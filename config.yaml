@@ -1,0 +1,11 @@
+spark:
+  app_name: "EnterpriseDataLakehouse"
+  master: "local[*]"
+
+paths:
+  raw_data: "data/raw/"
+  processed_data: "data/processed/"
+  streaming_input: "data/streaming_input/"
+
+delta:
+  table_path: "data/delta_table/"
